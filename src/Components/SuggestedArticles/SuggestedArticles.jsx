@@ -35,7 +35,7 @@ export default function SuggestedArticles({ selectedPost }) {
               </p>
             </div>
           </div>
-          <Link to={"/blog"} className="text-dark-orange">
+          <Link to={"/adasa-psi/blog"} className="text-dark-orange">
             عرض الكل <i className="fa-solid fa-arrow-left"></i>
           </Link>
         </div>

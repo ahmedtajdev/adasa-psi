@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <nav className="navbar navbar-expand bg-navbar py-3 fixed-top d-flex justify-content-between">
         <div className="container">
-          <Link className="navbar-brand m-0" to={""}>
+          <Link className="navbar-brand m-0" to={"/adasa-psi"}>
             <div className="d-flex align-items-center gap-2">
               <div className="w-48 h-48">
                 <img src={logo} alt="" className="w-100 h-100" />
@@ -25,14 +25,16 @@ export default function Navbar() {
             <ul className="navbar-nav d-none d-md-flex border-gray px-1 py-2 rounded-pill">
               <li className="nav-item px-1">
                 <NavLink
+                  key={"home"}
                   className="nav-link fs-sm fw-medium text-secondary px-4 py-2 rounded-pill"
-                  to={"/"}
+                  to={"/adasa-psi"} end
                 >
                   الرئيسية
                 </NavLink>
               </li>
               <li className="nav-item px-1">
                 <NavLink
+                  key={"blog"}
                   className="nav-link fs-sm fw-medium text-secondary px-4 py-2 rounded-pill"
                   to={"blog"}
                 >
@@ -41,6 +43,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item px-1">
                 <NavLink
+                  key={"about"}
                   className="nav-link fs-sm fw-medium text-secondary px-4 py-2 rounded-pill"
                   to={"about"}
                 >
@@ -89,7 +92,7 @@ export default function Navbar() {
                   setIsHamMenuShown(false);
                 }}
                 className="nav-link fs-sm fw-medium text-secondary px-4 py-3 rounded-4"
-                to={"/"}
+                to={""}
               >
                 الرئيسية
               </NavLink>

@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function RecentArticleCard({ post }) {
-  const { title, excerpt, category, readTime, date, image, author, slug } = post;
+  const { title, excerpt, category, readTime, date, image, author, slug } =
+    post;
 
   return (
     <div className="col-md-6 col-lg-4">
-      <Link to={`/blog/${slug}`}>
+      <Link to={`/adasa-psi/blog/${slug}`}>
         <div className="RecentArticleCard rounded-5 border-gray overflow-hidden h-100">
           <div className="position-relative overflow-hidden">
             <img

@@ -158,7 +158,7 @@ export default function BlogDetailsBody({ selectedPost }) {
                   اشترك للحصول على أحدث المقالات
                 </span>
                 <Link
-                  to={"/blog"}
+                  to={"/adasa-psi/blog"}
                   className="bg-gradient-orange-to-gold text-white fs-sm fw-medium w-100 text-center py-3 rounded-4"
                 >
                   تصفح المزيد

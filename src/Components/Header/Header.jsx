@@ -36,7 +36,7 @@ export default function Header() {
 
           <div className="col-md-3">
             <Link
-              to={"blog"}
+              to={"about"}
               className="more-info-btn d-inline-block text-white fw-medium bg-orange px-4 py-3 rounded-pill me-0 w-100 border border-secondary bg-transparent"
             >
               <i className="fa-solid fa-circle-exclamation ms-1"></i> اعرف

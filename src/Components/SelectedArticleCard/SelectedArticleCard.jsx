@@ -8,7 +8,7 @@ export default function SelectedArticleCard({ post }) {
 
   return (
     <div className="col-12">
-      <Link to={`/blog/${slug}`}>
+      <Link to={`/adasa-psi/blog/${slug}`}>
         <div className="row g-0 SelectedArticleCard rounded-5 overflow-hidden border-gray p-0">
           <div className=" col-md-6">
             <div className="position-relative overflow-hidden h-100">
@@ -50,7 +50,7 @@ export default function SelectedArticleCard({ post }) {
                     <span className="text-secondary mb-0 fs-xs">{date}</span>
                   </div>
                 </div>
-                <Link to={"blog"} className="text-dark-orange">
+                <Link to={`/adasa-psi/blog/${slug}`} className="text-dark-orange">
                   اقرأ المقال <i className="fa-solid fa-arrow-left me-2"></i>
                 </Link>
               </div>
