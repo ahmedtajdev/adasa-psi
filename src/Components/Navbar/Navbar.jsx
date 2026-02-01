@@ -92,7 +92,7 @@ export default function Navbar() {
                   setIsHamMenuShown(false);
                 }}
                 className="nav-link fs-sm fw-medium text-secondary px-4 py-3 rounded-4"
-                to={""}
+                to={"/adasa-psi"} end
               >
                 الرئيسية
               </NavLink>
