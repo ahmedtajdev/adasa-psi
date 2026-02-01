@@ -14,7 +14,7 @@ import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 let router = createBrowserRouter([
   {
-    path: "adasa-psi/",
+    path: "adasa-psi",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
