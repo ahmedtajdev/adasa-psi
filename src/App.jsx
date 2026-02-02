@@ -14,7 +14,7 @@ import data from "./data.json";
 import BlogDetails from "./Components/BlogDetails/BlogDetails";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
-let router = createHashRouter([
+let router = createBrowserRouter([
   {
     path: "adasa-psi",
     element: <Layout />,
