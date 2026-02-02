@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import {
   createBrowserRouter,
   createHashRouter,
+  HashRouter,
   RouterProvider,
 } from "../node_modules/react-router-dom";
 import Layout from "./Components/Layout/Layout";
@@ -33,7 +34,7 @@ let router = createHashRouter([
 export default function App() {
   return (
     <>
-      <RouterProvider router={router} />
+      <HashRouter router={router} />
     </>
   );
 }
