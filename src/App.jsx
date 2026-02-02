@@ -34,7 +34,7 @@ let router = createHashRouter([
 export default function App() {
   return (
     <>
-      <HashRouter router={router} />
+      <RouterProvider router={router} />
     </>
   );
 }
