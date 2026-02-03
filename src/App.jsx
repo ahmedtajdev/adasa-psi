@@ -15,7 +15,7 @@ import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
 let router = createHashRouter([
   {
-    path: "/",
+    path: "",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
