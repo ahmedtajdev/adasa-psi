@@ -27,7 +27,7 @@ export default function Navbar() {
                 <NavLink
                   key={"home"}
                   className="nav-link fs-sm fw-medium text-secondary px-4 py-2 rounded-pill"
-                  to={""} end
+                  to={"/adasa-psi"} end
                 >
                   الرئيسية
                 </NavLink>
@@ -92,7 +92,7 @@ export default function Navbar() {
                   setIsHamMenuShown(false);
                 }}
                 className="nav-link fs-sm fw-medium text-secondary px-4 py-3 rounded-4"
-                to={""} end
+                to={"/adasa-psi"} end
               >
                 الرئيسية
               </NavLink>

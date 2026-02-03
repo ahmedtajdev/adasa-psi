@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import {
   createBrowserRouter,
   createHashRouter,
+  HashRouter,
   RouterProvider,
 } from "../node_modules/react-router-dom";
 import Layout from "./Components/Layout/Layout";
@@ -13,12 +14,12 @@ import data from "./data.json";
 import BlogDetails from "./Components/BlogDetails/BlogDetails";
 import ErrorPage from "./Components/ErrorPage/ErrorPage";
 
-let router = createHashRouter([
+let router = createBrowserRouter([
   {
-    path: "",
+    path: "adasa-psi",
     element: <Layout />,
     children: [
-      { index: true, element: <Home /> },
+      { path: "", element: <Home /> },
       {
         path: "blog",
         element: <Blog />,
