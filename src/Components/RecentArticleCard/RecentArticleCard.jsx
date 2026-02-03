@@ -7,7 +7,7 @@ export default function RecentArticleCard({ post }) {
 
   return (
     <div className="col-md-6 col-lg-4">
-      <Link to={`/adasa-psi/blog/${slug}`}>
+      <Link to={`/blog/${slug}`}>
         <div className="RecentArticleCard rounded-5 border-gray overflow-hidden h-100">
           <div className="position-relative overflow-hidden">
             <img

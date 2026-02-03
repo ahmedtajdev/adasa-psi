@@ -10,13 +10,13 @@ export default function BlogDetailHero({ selectedPost }) {
         <img src={image} alt={title} className="w-100 h-100 object-fit-cover" />
         <div className="dark-layer p-4">
           <div className="bg-lightgray rounded-pill d-inline-block fs-sm px-3 py-2">
-            <Link to={"/adasa-psi"} className="text-light">
+            <Link to={"/"} className="text-light">
               <i className="fa-solid fa-home"></i>
             </Link>
             <span className="px-1 text-light">
               <i className="fa-solid fa-angle-left"></i>
             </span>
-            <Link to={"/adasa-psi/blog"} className="text-light">
+            <Link to={"/blog"} className="text-light">
               المدونة
             </Link>
             <span className="px-1 text-light">
@@ -27,7 +27,7 @@ export default function BlogDetailHero({ selectedPost }) {
           <div className="max-width-1050 mx-auto pt-5">
             <div className="d-flex flex-wrap gap-3 align-items-center mb-4">
               <Link
-                to={`/adasa-psi/blog`}
+                to={`/blog`}
                 className="bg-orange text-white fs-6 fw-medium px-3 py-2 rounded-pill"
               >
                 {category}

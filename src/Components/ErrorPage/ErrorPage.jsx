@@ -17,7 +17,7 @@ export default function ErrorPage() {
         <div className="row g-3 align-items-center justify-content-center">
           <div className="col-md-4">
             <Link
-              to={"/adasa-psi"}
+              to={"/"}
               className="discover-articles-btn d-inline-block text-white fw-medium bg-orange py-3 rounded-pill me-0 border-0 w-100"
             >
              <i className="fa-solid fa-home ms-2"></i>الذهاب للرئيسية
@@ -26,7 +26,7 @@ export default function ErrorPage() {
 
           <div className="col-md-4">
             <Link
-              to={"/adasa-psi/blog"}
+              to={"/blog"}
               className="more-info-btn d-inline-block text-white fw-medium bg-orange py-3 rounded-pill me-0 w-100 border border-secondary bg-transparent"
             >
               <i className="fa-regular fa-newspaper ms-2"></i> 
